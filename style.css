@@ -1,0 +1,90 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container-one{
+    border: 1px solid hsl(30, 38%, 92%);
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+.container-two{
+    display: flex;
+    height: 70%;
+    max-width: 25%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 10px 10px 0px ;
+    margin-top: 5em;
+}
+.image-container{
+    
+    height: 100%;
+    width: 20%;
+}
+.image-one{
+    height: inherit;
+    max-width: 500%;
+    position: absolute;
+    right: 0em;
+    border-radius: 10px 0px 0px 10px;
+}
+.detail-container{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 50%;
+    left: 1em;
+}
+.mini-title{
+    font-weight: 500;
+    font-family: 'Montserrat', 'sans serif';
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.product-name{
+    font-weight: 700;
+    font-family: 'Fraunces','sans serif';
+    color: hsl(212, 21%, 14%);
+    width: 7em;
+}
+.text{
+    font-weight: 500;
+    font-family: 'Montserrat', 'sans serif';
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    width: 17.0em;
+    margin-top: 1em;
+}
+.product-price-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    margin-bottom: 10em;
+}
+.product-price{
+    font-weight: 700;
+    font-family: 'Fraunces','sans serif';
+    color: hsl(158, 36%, 37%);
+}
+.old-price{
+    text-decoration: line-through;
+    padding-top: 0.9em;
+    font-size: 14px;
+    font-weight: 500;
+    padding-right: 4em;
+    color: hsl(228, 12%, 48%);
+    margin-left: 1em;
+}
+.button{
+    text-align: center;
+    margin-top: 7em;
+    border-radius: 5px;
+}
+.button-text{
+    padding: 0.5em 5em;
+    background-color: hsl(158, 36%, 37%);
+}
+.button-text:hover{
+    background-color: hsl(157, 37%, 22%);
+}
